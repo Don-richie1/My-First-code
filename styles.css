@@ -1,0 +1,33 @@
+/* Basic Reset */
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+/* Navigation Styling */
+.navbar ul {
+    list-style-type: none; /* Removes bullet points */
+    padding: 0;
+    display: flex; /* Makes the menu horizontal */
+    gap: 20px;     /* Adds space between links */
+    background-color: #333;
+    padding: 1rem;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* Layout for Image and Text */
+#dark {
+    padding: 20px;
+    text-align: center; /* Centers the image and text */
+}
+
+img {
+    max-width: 100%; /* Makes image responsive on mobile */
+    height: auto;
+    border-radius: 10px; /* Optional: makes corners rounded */
+}
